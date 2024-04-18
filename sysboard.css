@@ -1,0 +1,79 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  background-color: rgb(240, 242, 245);
+  color: black;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+main {
+  margin: 0 auto;
+  width: 50%;
+}
+
+main > header {
+  padding: 35px 0;
+}
+
+main > header > p {
+  margin-bottom: 20px;
+}
+
+header > p {
+  color: rgb(50%, 50%, 50%);
+}
+
+main section {
+  background-color: white;
+  border-radius: 03px;
+  box-shadow: 01px 01px 03px rgb(230, 230, 230);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+main section:last-child {
+  margin-bottom: 0;
+}
+
+main section > header {
+  margin-bottom: 20px;
+}
+
+input, select, option {
+  background-color: rgb(230, 230, 230);
+  color: inherit;
+  border: 0;
+  border-radius: 03px;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  outline: 0;
+  padding: 15px;
+}
+
+input:focus, input:hover,
+select:focus, option:hover {
+  background-color: rgb(220, 220, 220);
+}
+
+table {
+  width: 100%;
+}
+
+thead {
+  background-color: rgb(240, 242, 245);
+}
+
+tr, td {
+  padding: 05px;
+}
+
+table, tr, td {
+  border-collapse: collapse;
+}
